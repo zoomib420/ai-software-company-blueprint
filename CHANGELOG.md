@@ -11,6 +11,9 @@
 - สร้างโฟลเดอร์ `templates/` พร้อมเทมเพลต client proposal, case study, decision record, weekly progress, client intake brief
 - วิเคราะห์ portfolio repo (`creative-portfolio-2026`) และระบุจุดที่ควรเพิ่ม Business Systems / Mini CRM / Mini ERP / Automation case study
 - ตั้งโฟกัสแรกของ repo เป็น **First Client** ไม่ใช่ AI Company
+- `git init` + push ขึ้น GitHub จริง (origin/main)
+- เพิ่ม [AGENTS.md](./AGENTS.md) เป็นจุดเข้าเดียวสำหรับ AI agent (ลำดับการอ่าน + กฎการทำงาน) ย้ายมาจาก
+  block ที่เคยอยู่ใน README.md เพื่อไม่ต้องบอก AI ซ้ำทุกเซสชัน
 
 ### บริบทตอนสร้าง
 - ยังไม่มีลูกค้า ยังไม่มีรายได้
