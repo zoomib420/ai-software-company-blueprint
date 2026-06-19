@@ -35,6 +35,15 @@
 - สำรวจ `creative-portfolio-2026` ทั้ง repo เพิ่ม (ไม่ใช่แค่ 2 เคสหลัก) เพิ่มหมวดงาน "รอง" ที่รับได้ใน
   [01-first-client/README.md](./01-first-client/README.md): เว็บแอป/ระบบสมาชิก, quiz funnel, ฟีเจอร์ AI วิเคราะห์
   รูปภาพ — และระบุชัดว่า Roblox game dev กับเว็บ 3D เต็มรูปยังไม่ควรเสนอตอนนี้
+- **แก้โค้ดจริงใน `creative-portfolio-2026`:** เพิ่ม LINE (Intake Pilot) เป็น CTA ในหน้า "ติดต่อ" ของพอร์ต
+  (`src/data/profile.ts` + `src/components/ui/FloorContent.tsx`) ทดสอบ build/typecheck ผ่านแล้ว push ขึ้น
+  GitHub แล้ว (commit `b6567a0`) — Vercel ควร auto-deploy ตาม
+- ถอด "ฟีเจอร์ AI วิเคราะห์รูปภาพ" ออกจากหมวดงานที่ขายได้ตอนนี้ เพราะความแม่นยำจริงไม่พอ (ADR-0009)
+- เขียน case study เพิ่ม: [01-first-client/case-study-introvert-mind.md](./01-first-client/case-study-introvert-mind.md)
+  reframe เป็น quiz funnel สำหรับธุรกิจ — พบข้อมูลไม่ตรงกันใน `projects.ts` (tools เป็น Unity/C# แต่คำอธิบาย
+  เป็นเว็บแอป) ต้องให้ผู้ใช้เช็คและแก้ที่ source ก่อนใช้ขายงานจริง
+- จัดกลุ่ม "เว็บ 3D เต็มรูป" ใหม่เป็น flagship/credibility piece — เก็บโชว์ในพอร์ตเหมือนเดิม แต่ไม่ตั้งราคาแบบ
+  มือใหม่ให้ (ADR-0010) ตามที่ผู้ใช้ทักท้วงว่าไม่ควรจัดรวมกับ "ไม่แนะนำ"
 
 ### บริบทตอนสร้าง
 - ยังไม่มีลูกค้า ยังไม่มีรายได้
