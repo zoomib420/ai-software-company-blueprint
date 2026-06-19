@@ -22,6 +22,9 @@
 - เขียน case study จริง 2 ชิ้น: [01-first-client/case-study-schedule-automator.md](./01-first-client/case-study-schedule-automator.md)
   และ [01-first-client/case-study-intake-pilot.md](./01-first-client/case-study-intake-pilot.md) — ยังเหลือ
   ช่อง 🟡 ที่ต้องกรอกตัวเลขจริง (ชั่วโมงที่ประหยัดได้ ฯลฯ) เพราะไม่มีข้อมูลยืนยันให้กรอกแทน
+- เปิดเว็บ `creative-portfolio-2026` จริงผ่านเบราว์เซอร์เพื่อ QA: ไม่มี console error, multi-tier fidelity
+  fallback ทำงานถูกต้อง, เนื้อหาตรงกับข้อมูลจริง — พบช่องโหว่เพิ่ม 1 ข้อ: หน้า "ติดต่อ" มีแค่อีเมล/GitHub
+  ไม่มี LINE/CTA ชัดเจน บันทึกเป็นงานเปิดใหม่ใน [02-portfolio/README.md](./02-portfolio/README.md)
 
 ### บริบทตอนสร้าง
 - ยังไม่มีลูกค้า ยังไม่มีรายได้
