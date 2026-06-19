@@ -10,7 +10,7 @@
 | # | Stage | สถานะ | หมายเหตุ |
 | --- | --- | --- | --- |
 | 01 | [First Client](./01-first-client/) | 🔴 กำลังทำ — โฟกัสหลักตอนนี้ | ยังไม่มี lead, ยังไม่มี case study พร้อมขาย |
-| 02 | [Portfolio](./02-portfolio/) | 🟡 มีพอร์ตอยู่แล้ว แต่ยังไม่ deploy จริง | `creative-portfolio-2026` พร้อม 95% ด้านโค้ด รอ deploy + เติม Business Systems section |
+| 02 | [Portfolio](./02-portfolio/) | 🟢 Deploy แล้ว — live ที่ [creative-portfolio-2026.vercel.app](https://creative-portfolio-2026.vercel.app/) | เหลืองานเดียว: เพิ่ม Business Systems category ให้ Schedule Automator/Intake Pilot เด่นขึ้น |
 | 03 | [Web App Foundation](./03-web-app-foundation/) | ⚪ ยังไม่เริ่ม | รอ first client ก่อน |
 | 04 | [Database & Backend](./04-database-backend/) | ⚪ ยังไม่เริ่ม | รอ first client ก่อน |
 | 05 | [Mini CRM](./05-mini-crm/) | ⚪ ยังไม่เริ่ม | มีต้นแบบแนวคิดจาก Intake Pilot แล้ว |

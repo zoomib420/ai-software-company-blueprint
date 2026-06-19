@@ -32,9 +32,11 @@
 
 ## Checklist
 
-- [ ] Portfolio มี URL จริง ใช้งานได้ ไม่มี EXAMPLE/placeholder เหลือ
-- [ ] Case study Schedule Automator พร้อมส่ง (PDF หรือลิงก์)
-- [ ] Case study Intake Pilot พร้อมส่ง (PDF หรือลิงก์)
+- [x] Portfolio มี URL จริง ใช้งานได้ ไม่มี EXAMPLE/placeholder เหลือ — https://creative-portfolio-2026.vercel.app/
+- [x] Case study Schedule Automator พร้อมส่ง — [case-study-schedule-automator.md](./case-study-schedule-automator.md)
+      (ยังมีช่อง 🟡 ที่ต้องกรอกตัวเลขจริง เช่น ชั่วโมงที่ประหยัดได้ — กรอกแล้วจะขายได้แรงขึ้นมาก)
+- [x] Case study Intake Pilot พร้อมส่ง — [case-study-intake-pilot.md](./case-study-intake-pilot.md)
+      (มีช่อง 🟡 ที่ต้องกรอกตัวเลขจริงเหมือนกัน)
 - [ ] One-Pager บริการ + ราคา พร้อมส่ง
 - [ ] ลิสต์ lead 20 ราย พร้อมช่องทางติดต่อ (LINE/อีเมล/เพจ)
 - [ ] ส่ง outreach ≥5 ราย/สัปดาห์ ติดต่อกัน

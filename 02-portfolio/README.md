@@ -19,10 +19,12 @@
 
 ### ปัญหาที่กระทบการ "ปิดงานแรก" โดยตรง
 
-1. **ยังไม่ deploy** — ไม่มี URL จริงให้ส่งลูกค้าได้ (`docs/USER_TODO.md` ข้อ 7 ยังไม่ทำ) — นี่คือ blocker
-   อันดับ 1 ของ stage 01
-2. **ยังเหลือ EXAMPLE placeholder** — SEO/og-image/บางจุดใน `index.html` (ค้นด้วย `git grep -n "EXAMPLE"` ใน
-   repo นั้น)
+> ✅ **อัปเดต 2026-06-19:** Deploy แล้ว — live ที่ https://creative-portfolio-2026.vercel.app/ และตรวจ
+> `index.html` แล้วไม่มี EXAMPLE/placeholder เหลือ (ชื่อ/SEO/og:title/canonical/JSON-LD เป็นข้อมูลจริงหมด)
+> blocker เดิม 2 ข้อด้านล่างถือว่าผ่านแล้ว เหลือข้อ 3–4 ที่ยังเป็นงานเปิดอยู่
+
+1. ~~ยังไม่ deploy~~ — **เสร็จแล้ว**
+2. ~~ยังเหลือ EXAMPLE placeholder~~ — **เสร็จแล้ว** (เช็คผ่าน `index.html` แล้ว)
 3. **โทนพอร์ตทั้งหมดคือ "Creative Technologist"** — เน้น 3D/เกม/ศิลปะ ไม่มีจุดที่บอกตรงๆ ว่า "รับงาน
    Automation/ERP/CRM ให้ธุรกิจ" ทั้งที่มีเคสจริงรองรับอยู่แล้ว 2 ชิ้น
 4. **Schedule Automator และ Intake Pilot ถูกจัดอยู่ใต้ category `automation` เฉยๆ ปนกับเกม/เว็บ** — เคสที่ขายงาน
@@ -62,8 +64,9 @@
 
 ## Checklist
 
-- [ ] มี URL จริงที่ใช้ส่งลูกค้าได้
-- [ ] ไม่มี `EXAMPLE` เหลือใน repo นั้น (ตรวจด้วย grep)
+- [x] มี URL จริงที่ใช้ส่งลูกค้าได้ — https://creative-portfolio-2026.vercel.app/
+- [x] ไม่มี `EXAMPLE` เหลือใน `index.html` (ตรวจแล้ว 2026-06-19 — ยังไม่ได้ตรวจทุกไฟล์ในซอร์ส ถ้าจะชัวร์สุด รัน
+      `git grep -n "EXAMPLE"` ในเครื่องตัวเองอีกรอบ)
 - [ ] category `business-systems` ถูกเพิ่มและแสดงผลถูกทั้ง 3D และ 2D fallback
 - [ ] Schedule Automator และ Intake Pilot มี description แบบกรอบผลลัพธ์ธุรกิจ
 - [ ] มี CTA ติดต่อในเซกชัน business systems
