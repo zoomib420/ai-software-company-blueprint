@@ -91,8 +91,9 @@
 - [ ] category `business-systems` ถูกเพิ่มและแสดงผลถูกทั้ง 3D และ 2D fallback
 - [ ] Schedule Automator และ Intake Pilot มี description แบบกรอบผลลัพธ์ธุรกิจ
 - [ ] มี CTA ติดต่อในเซกชัน business systems
-- [ ] หน้า "ติดต่อ" (floor 4) มีลิงก์ LINE จริง (https://lin.ee/w3Fw9o6R) + CTA ที่ชัดกว่า "GITHUB" เปล่าๆ
-      (ลิงก์มีแล้ว เหลือแก้โค้ดจริงใน `creative-portfolio-2026` ให้ใส่เข้าไป)
+- [x] หน้า "ติดต่อ" (floor 4) มีลิงก์ LINE จริง (https://lin.ee/w3Fw9o6R, คุยกับ Intake Pilot) + CTA ชัดเจน —
+      แก้ใน `src/data/profile.ts` + `src/components/ui/FloorContent.tsx`, build/typecheck ผ่าน, push แล้ว
+      (commit `b6567a0`), ยืนยันแล้วว่า deploy ขึ้นจริงผ่านเบราว์เซอร์ 2026-06-19
 - [ ] ลิงก์ `links[]` ของทั้งสองโปรเจกต์ชี้ไปเอกสาร case study จริง ไม่ใช่ `example.com`
 
 ## งานที่สามารถรับได้ตอนนี้

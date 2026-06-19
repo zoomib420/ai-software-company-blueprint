@@ -21,7 +21,8 @@
       (ราคาเป็น "Founding Client" rate เพราะยังไม่เคยรับงานจ่ายเงินมาก่อน — ปรับขึ้นได้หลังปิดได้ 3 รายแรก)
 - [ ] ทำลิสต์ lead 20 รายที่มีงานซ้ำๆ ทำมือ — ตารางพร้อมแล้วที่ [01-first-client/lead-list.md](./01-first-client/lead-list.md)
       **ยังต้องกรอกชื่อจริงเอง** (เป็นคนรู้จักของคุณ AI กรอกแทนไม่ได้)
-- [ ] เพิ่ม LINE/CTA ที่หน้า "ติดต่อ" ของ portfolio (ดู [02-portfolio/README.md](./02-portfolio/README.md))
+- [x] เพิ่ม LINE/CTA ที่หน้า "ติดต่อ" ของ portfolio — live แล้ว ยืนยันผ่านเบราว์เซอร์ (ดู
+      [02-portfolio/README.md](./02-portfolio/README.md))
 - [ ] ส่ง outreach อย่างน้อย 5 รายต่อสัปดาห์
 
 ## กฎระหว่างทำ Stage นี้
