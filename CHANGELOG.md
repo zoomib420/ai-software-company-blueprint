@@ -26,6 +26,16 @@
   fallback ทำงานถูกต้อง, เนื้อหาตรงกับข้อมูลจริง — พบช่องโหว่เพิ่ม 1 ข้อ: หน้า "ติดต่อ" มีแค่อีเมล/GitHub
   ไม่มี LINE/CTA ชัดเจน บันทึกเป็นงานเปิดใหม่ใน [02-portfolio/README.md](./02-portfolio/README.md)
 
+### อัปเดต 2026-06-19 (รอบ 3)
+- ได้ลิงก์ LINE OA จริง (https://lin.ee/w3Fw9o6R) — บันทึก CTA copy พร้อมใช้ใน
+  [02-portfolio/README.md](./02-portfolio/README.md) และตัดสินใจใช้ช่องทางเดียวสำหรับทุกหมวดงานไปก่อน (ADR-0007)
+- ปรับโครงสร้างราคาเป็นบันได 3 ขั้น (งานแรกจริงๆ/Founding Client/ราคาปกติ) ใน
+  [01-first-client/pricing.md](./01-first-client/pricing.md) หลังผู้ใช้รีแอคว่าราคารอบแรกแพงเกินไปสำหรับงานแรก
+  (ADR-0008)
+- สำรวจ `creative-portfolio-2026` ทั้ง repo เพิ่ม (ไม่ใช่แค่ 2 เคสหลัก) เพิ่มหมวดงาน "รอง" ที่รับได้ใน
+  [01-first-client/README.md](./01-first-client/README.md): เว็บแอป/ระบบสมาชิก, quiz funnel, ฟีเจอร์ AI วิเคราะห์
+  รูปภาพ — และระบุชัดว่า Roblox game dev กับเว็บ 3D เต็มรูปยังไม่ควรเสนอตอนนี้
+
 ### บริบทตอนสร้าง
 - ยังไม่มีลูกค้า ยังไม่มีรายได้
 - มี portfolio และ 2 เคสงานจริงอยู่แล้ว (Schedule Automator, Intake Pilot) ที่ยังไม่ได้ deploy ขึ้นใช้งานจริง
