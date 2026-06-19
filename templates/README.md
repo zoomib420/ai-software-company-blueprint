@@ -9,5 +9,6 @@
 | [client-proposal-template.md](./client-proposal-template.md) | ส่ง outreach/proposal ให้ lead รายใหม่ |
 | [case-study-template.md](./case-study-template.md) | สรุปผลงานจริง (เช่น Schedule Automator, Intake Pilot) เป็นเอกสารขายงาน |
 | [client-intake-brief-template.md](./client-intake-brief-template.md) | เก็บ requirement จากลูกค้าก่อนเริ่มงาน กันสโคปบวม |
+| [service-agreement-template.md](./service-agreement-template.md) | สรุปงาน/ราคา/วิธีจ่ายเงินให้ลูกค้ายืนยันก่อนเริ่มงานจริง |
 | [decision-record-template.md](./decision-record-template.md) | บันทึก ADR ใหม่ใน [DECISIONS.md](../DECISIONS.md) |
 | [weekly-progress-template.md](./weekly-progress-template.md) | เช็คอินรายสัปดาห์ อัปเดต [PROGRESS.md](../PROGRESS.md) / [CURRENT_FOCUS.md](../CURRENT_FOCUS.md) |

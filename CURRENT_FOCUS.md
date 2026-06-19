@@ -19,8 +19,10 @@
 - [x] เขียน case study 1 หน้าจาก Schedule Automator + Intake Pilot (ดู [01-first-client/case-study-schedule-automator.md](./01-first-client/case-study-schedule-automator.md) และ [01-first-client/case-study-intake-pilot.md](./01-first-client/case-study-intake-pilot.md))
 - [x] กำหนด service offer + ตั้งราคาแพ็กเกจเริ่มต้น — ดู [01-first-client/pricing.md](./01-first-client/pricing.md)
       (ราคาเป็น "Founding Client" rate เพราะยังไม่เคยรับงานจ่ายเงินมาก่อน — ปรับขึ้นได้หลังปิดได้ 3 รายแรก)
-- [ ] ทำลิสต์ lead 20 รายที่มีงานซ้ำๆ ทำมือ — ตารางพร้อมแล้วที่ [01-first-client/lead-list.md](./01-first-client/lead-list.md)
-      **ยังต้องกรอกชื่อจริงเอง** (เป็นคนรู้จักของคุณ AI กรอกแทนไม่ได้)
+- [ ] ไม่มีคนรู้จักที่เข้าเงื่อนไข → เปลี่ยนมาใช้ **Fastwork.co** เป็นช่องทางหลัก — ดู
+      [01-first-client/lead-list.md](./01-first-client/lead-list.md): สร้างโปรไฟล์ผู้ขายหมวด chatbot/AI
+      automation ใส่ case study + ราคา "งานแรกจริงๆ" จาก pricing.md (ยังไม่ได้สร้างโปรไฟล์จริง)
+- [ ] มีเอกสารตกลงงานขั้นต่ำพร้อมใช้แล้ว — [templates/service-agreement-template.md](./templates/service-agreement-template.md)
 - [x] เพิ่ม LINE/CTA ที่หน้า "ติดต่อ" ของ portfolio — live แล้ว ยืนยันผ่านเบราว์เซอร์ (ดู
       [02-portfolio/README.md](./02-portfolio/README.md))
 - [ ] ส่ง outreach อย่างน้อย 5 รายต่อสัปดาห์
